@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Poppins:wght@400;700&family=Zen+Kaku+Gothic+Antique&display=swap");
+body {
+  background-color: #000000;
+}
+
+main {
+  color: white;
+  font-family: 'poppins';
+  margin-left: 250px;
+  /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+
+.sidebar {
+  background-color: #422011;
+  height: 100%;
+  /* Full-height: remove this if you want "auto" height */
+  width: 19rem;
+  /* Set the width of the sidebar */
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 20px;
+  font-family: 'poppins';
+}
+
+.admin-id {
+  margin-top: 1.6rem;
+}
+
+#logout {
+  margin: auto;
+}
+
+#about-admin {
+  margin: auto;
+}
+
+.sidebar h3, .sidebar h4 {
+  color: #ffffff;
+  font-family: 'poppins';
+  font-size: .9em;
+  margin: -.1em;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.sidebar h4 {
+  margin-bottom: 3.5em;
+  color: #818181;
+}
+
+.sidebar .admin-img {
+  margin-left: 6.7em;
+}
+
+.sidebar-menu {
+  margin-left: 3.5rem;
+}
+
+.sidebar-menu li {
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.sidebar-menu a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 1em;
+  color: #ffffff;
+  display: block;
+}
+
+.sidebar-menu ul {
+  list-style: none;
+}
+
+.sidebar-menu ul li {
+  margin-left: -2em;
+}
+
+.sidebar-menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  -webkit-transition: all ease-out 300ms;
+  transition: all ease-out 300ms;
+}
+
+.sidebar-menu ul li.active a {
+  color: #14B8A6;
+}
+
+.sidebar-menu ul li:not(.active)::after {
+  opacity: 0.2;
+}
+
+.sidebar-menu ul li:not(.active):hover a {
+  color: rgba(20, 184, 166, 0.75);
+}
+
+.sidebar-menu ul li::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.2em;
+  background: black;
+  left: 0;
+  bottom: 0;
+}
+
+table, th, td {
+  background-color: #390E15;
+  border: 1px solid wheat;
+  border-collapse: collapse;
+  margin-top: 3em;
+  margin-left: 8.5em;
+  text-align: center;
+  padding: 1em;
+}
+
+table {
+  width: 750px;
+}
+
+button {
+  color: red;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.addEmployee {
+  margin-left: 67em;
+  margin-top: 5em;
+  margin-bottom: -10em;
+  background: linear-gradient(178.18deg, rgba(196, 96, 44, 0.439216) -9.74%, #281AC8 162.12%);
+  border-radius: 100px;
+  width: 120px;
+  height: 45px;
+  left: 1635px;
+  top: 123px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.addEmployee a {
+  text-decoration: none;
+  color: #50FF80;
+}
+
+.alert {
+  background-color: brown;
+  color: antiquewhite;
+  display: none;
+  
+}
+
+#empTable {
+  margin-left: 16.3rem;
+}
+
+#deleteButton {
+  color: red;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+#deleteButton:hover {
+  color: brown;
+}
+
+.alert {
+  background-color: black;
+  color: antiquewhite;
+  border: 0.3rem solid brown;
+  width: 10rem;
+  height: 2rem;
+  text-align: center;
+  padding: 1.3rem;
+  border-radius: 0.9rem;
+  margin-left: 25rem;
+}
+
+.alert h4 {
+  margin-top: 0.4rem;
+}
+
+nav {
+  margin-top: 4rem;
+  position: fixed;
+}
+
+nav h1 {
+  color: #ffffff;
+  margin-left: 7.5em;
+  font-size: 1.8rem;
+  margin-bottom: -4rem;
+}
+
+nav .add-employee {
+  padding: 4rem;
+  width: 45rem;
+  height: 23rem;
+  background-color: #63301b;
+  text-align: left;
+  margin-top: 4.7rem;
+  margin-bottom: 1em;
+  margin-left: 13.2rem;
+  border: 1px solid #F0F0F0;
+  border-radius: 5px;
+}
+
+nav input {
+  width: 100%;
+  padding: .8em;
+  margin-bottom: 1em;
+  border-radius: .3em;
+  border: 1px solid gray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: .5em;
+}
+
+nav form {
+  color: #ffffff;
+}
+
+nav .up-side {
+  width: 100%;
+}
+
+nav .left-side {
+  width: 48%;
+  margin-top: 0em;
+}
+
+nav .right-side {
+  width: 48%;
+  margin-left: 24em;
+  margin-top: -10.25em;
+}
+
+nav .send-message {
+  color: #ffffff;
+  margin-left: 22em;
+  margin-top: 2em;
+  width: 134px;
+  height: 42px;
+  left: 1073px;
+  top: 858px;
+  background: linear-gradient(178.18deg, rgba(196, 96, 44, 0.44) -13.56%, #281AC8 158.3%);
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.send-message a {
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.send-message:hover {
+    background: linear-gradient(178.18deg, rgba(196, 96, 44, 0.44) -13.56%, #0f057a 158.3%);
+}
+/*# sourceMappingURL=adminEmployee.css.map */

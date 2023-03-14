@@ -1,0 +1,139 @@
+@import url("https://www.dafontfree.net/embed/cmFnZS1pdGFsaWMtcmVndWxhciZkYXRhLzEzL3IvNjUyNjYvUkFHRS5UVEY");
+@import url("http://fonts.cdnfonts.com/css/bankgothic-lt-bt");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'bankgothic lt bt', sans-serif;
+}
+
+.navbar {
+  text-align: center;
+  background: none;
+  padding: 3em;
+  margin: auto;
+  margin-left: 2.95rem;
+}
+
+.navbar span {
+  font-size: 1.1em;
+}
+
+.navbar span a {
+  text-decoration: none;
+  -webkit-transition: color 0.7s;
+  transition: color 0.7s;
+}
+
+.navbar span a:hover {
+  color: #DA7420;
+}
+
+#logo {
+  padding: 1em;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'rage';
+  color: #DBDBDB;
+}
+
+#bakery {
+  text-align: center;
+  font-size: 1em;
+  font-family: 'bankgothic lt bt';
+  color: #DBDBDB;
+  margin-top: -1rem;
+  margin-left: -3rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #DBDBDB;
+  margin-right: 2em;
+}
+
+#registration-background {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+#heading {
+  font-size: 2rem;
+  margin-bottom: 1.1rem;
+}
+
+.registration {
+  border-radius: 3%;
+  padding: 3rem;
+  width: 45rem;
+  height: 36rem;
+  background-color: #000000;
+  text-align: left;
+  margin: auto;
+  color: #DBDBDB;
+  margin-bottom: 1em;
+}
+
+input {
+  width: 100%;
+  padding: .8em;
+  margin-bottom: 1em;
+  border-radius: .3em;
+  border: 1px solid gray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: .5em;
+}
+
+h2 {
+  margin-top: -1.2em;
+  font-family: 'rage';
+  color: #DA7420;
+  text-align: center;
+  font-size: 1.9em;
+  font-weight: lighter;
+}
+
+.left-side {
+  width: 48%;
+}
+
+.address-left-side {
+  width: 48%;
+}
+
+.right-side {
+  width: 48%;
+  margin-left: 20.2rem;
+  margin-top: -4.6rem;
+}
+
+.address-right-side {
+  width: 48%;
+  margin-left: 20.2rem;
+  margin-top: -9.24rem;
+}
+
+.input-section {
+  margin-top: 1.2em;
+}
+
+.send-message {
+  color: white;
+  background: rgb(163, 83, 7);
+  padding: 10px 14px;
+  font-size: 19px;
+  width: 20%;
+  margin-left: 15.6rem;
+  border: 2px solid white;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: background 0.7s ;
+}
+
+.send-message:hover {
+  background: firebrick;
+}
+/*# sourceMappingURL=registration.css.map */

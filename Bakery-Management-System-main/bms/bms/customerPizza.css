@@ -1,0 +1,146 @@
+@import url("https://www.dafontfree.net/embed/cmFnZS1pdGFsaWMtcmVndWxhciZkYXRhLzEzL3IvNjUyNjYvUkFHRS5UVEY");
+@import url("http://fonts.cdnfonts.com/css/bankgothic-lt-bt");
+body {
+  background-image: url("images/product-bg.jpg");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'bankgothic lt bt', sans-serif;
+}
+
+.navbar {
+  text-align: center;
+  background: none;
+  padding: 3em;
+  margin: auto;
+  margin-left: 4.5em;
+}
+
+.navbar span {
+  font-size: 1.1em;
+}
+
+.navbar span a {
+  text-decoration: none;
+  -webkit-transition: color 0.7s;
+  transition: color 0.7s;
+}
+
+.navbar span a:hover {
+  color: #DA7420;
+}
+
+#logo {
+  padding: 1em;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'rage';
+  color: #DBDBDB;
+}
+
+#bakery {
+  text-align: center;
+  font-size: 1em;
+  font-family: 'bankgothic lt bt';
+  color: #DBDBDB;
+  margin-top: -1rem;
+  margin-left: -3rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #DBDBDB;
+  margin-right: 2em;
+}
+
+#welcomebg {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: #DA7420;
+  margin-left: 4rem;
+  font-size: 4rem;
+  font-family: rage;
+  font-weight: lighter;
+}
+
+#items {
+  margin-top: 2rem;
+  margin-left: 8rem;
+}
+
+.tikka, .bbq-chicken, .hawaiian {
+  background: #5A400C;
+  display: inline-block;
+  width: 20rem;
+  height: 24rem;
+  text-align: center;
+  margin-left: 4rem;
+  border-radius: 30px;
+  color: wheat;
+}
+
+.tikka img, .bbq-chicken img, .hawaiian img {
+  margin-left: 0.2em;
+  margin-top: 0.5rem;
+  margin-bottom: -01.2rem;
+  text-align: center;
+  width: 18rem;
+  height: 13rem;
+}
+
+.tikka h2, .bbq-chicken h2, .hawaiian h2 {
+  margin-top: 2rem;
+  font-weight: lighter;
+  font-size: 1.8rem;
+}
+
+.classic-cheese, .pepperoni, .thin-crust, .crowncrust, .stuff, .sausage {
+  background: #5A400C;
+  display: inline-block;
+  width: 20rem;
+  height: 24rem;
+  text-align: center;
+  margin-left: 4rem;
+  border-radius: 30px;
+  color: wheat;
+  margin-top: 3rem;
+}
+
+.classic-cheese img, .pepperoni img, .thin-crust img, .crowncrust img, .stuff img, .sausage img {
+  margin-left: 0.2em;
+  margin-top: 0.5rem;
+  margin-bottom: -01.2rem;
+  text-align: center;
+  width: 18rem;
+  height: 13rem;
+  overflow: hidden;
+}
+
+.classic-cheese h2, .pepperoni h2, .thin-crust h2, .crowncrust h2, .stuff h2, .sausage h2 {
+  margin-top: 2rem;
+  font-weight: lighter;
+  font-size: 1.8rem;
+}
+
+button {
+  margin-top: 0.7rem;
+  background: #b35702;
+  border-radius: 50px;
+  color: white;
+  width: 12rem;
+  height: 2rem;
+  margin-left: 0.8rem;
+  border: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=customerPizza.css.map */

@@ -1,0 +1,105 @@
+@import url("https://www.dafontfree.net/embed/cmFnZS1pdGFsaWMtcmVndWxhciZkYXRhLzEzL3IvNjUyNjYvUkFHRS5UVEY");
+@import url("http://fonts.cdnfonts.com/css/bankgothic-lt-bt");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'bankgothic lt bt', sans-serif;
+}
+
+.navbar {
+  text-align: center;
+  background: none;
+  padding: 3em;
+  margin: auto;
+  margin-left: 2.95rem;
+}
+
+.navbar span {
+  font-size: 1.1em;
+}
+
+.navbar span a {
+  text-decoration: none;
+  -webkit-transition: color 0.7s;
+  transition: color 0.7s;
+}
+
+.navbar span a:hover {
+  color: #DA7420;
+}
+
+#logo {
+  padding: 1em;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'rage';
+  color: #DBDBDB;
+}
+
+#bakery {
+  text-align: center;
+  font-size: 1em;
+  font-family: 'bankgothic lt bt';
+  color: #DBDBDB;
+  margin-top: -1rem;
+  margin-left: -3rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #DBDBDB;
+  margin-right: 2em;
+}
+
+#login-background {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.login {
+  padding: 3rem;
+  width: 32rem;
+  height: 22rem;
+  background-color: #000000;
+  text-align: left;
+  margin: auto;
+  color: #DBDBDB;
+  margin-bottom: 1em;
+}
+
+input {
+  width: 100%;
+  padding: .8em;
+  margin-bottom: 1em;
+  border-radius: .3em;
+  border: 1px solid gray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: .5em;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+  text-align: center;
+  color: #DA7420;
+  font-family: 'rage';
+  font-size: 1.9em;
+  font-weight: lighter;
+}
+
+.forgot {
+  color: #DA7420;
+  font-family: 'rage';
+  font-size: 1.3em;
+}
+
+.send-message {
+  width: 25%;
+  margin-left: 12em;
+  cursor: pointer;
+}
+/*# sourceMappingURL=login.css.map */

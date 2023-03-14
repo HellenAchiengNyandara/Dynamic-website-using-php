@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Poppins:wght@400;700&family=Zen+Kaku+Gothic+Antique&display=swap");
+body {
+  background-color: #000000;
+}
+
+main {
+  color: #000000;
+  font-family: 'poppins';
+  margin-left: 250px;
+  /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+.total-customers, .total-vehicles, .total-categories, .total-employees, .branches, .total-products {
+  background-color: #ffffff;
+  width: 300px;
+  height: 105px;
+  border-radius: 5px;
+  margin-bottom: 4em;
+}
+
+.total-customers img, .total-vehicles img, .total-categories img, .total-employees img, .branches img, .total-products img {
+  margin-left: 14em;
+  margin-top: -5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sidebar {
+  background-color: #422011;
+  height: 100%;
+  /* Full-height: remove this if you want "auto" height */
+  width: 19rem;
+  /* Set the width of the sidebar */
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 20px;
+  font-family: 'poppins';
+}
+
+.admin-id {
+  margin-top: 1.6rem;
+}
+
+#logout {
+  margin: auto;
+}
+
+#about-admin {
+  margin: auto;
+}
+
+.sidebar h3, .sidebar h4 {
+  color: #ffffff;
+  font-family: 'poppins';
+  font-size: .9em;
+  margin: -.1em;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.sidebar h4 {
+  margin-bottom: 3.5em;
+  color: #818181;
+}
+
+.sidebar .admin-img {
+  margin-left: 6.7em;
+}
+
+.sidebar-menu {
+  margin-left: 3.5rem;
+}
+
+.sidebar-menu li {
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.sidebar-menu a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 1em;
+  color: #ffffff;
+  display: block;
+}
+
+
+.sidebar-menu ul {
+  list-style: none;
+}
+
+.sidebar-menu ul li {
+  margin-left: -2em;
+}
+
+.sidebar-menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  -webkit-transition: all ease-out 300ms;
+  transition: all ease-out 300ms;
+}
+
+.sidebar-menu ul li.active a {
+  color: #14B8A6;
+}
+
+.sidebar-menu ul li:not(.active)::after {
+  opacity: 0.2;
+}
+
+.sidebar-menu ul li:not(.active):hover a {
+  color: rgba(20, 184, 166, 0.75);
+}
+
+.sidebar-menu ul li::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.2em;
+  background: black;
+  left: 0;
+  bottom: 0;
+}
+
+main {
+  color: #ffffff;
+  font-family: 'poppins';
+  margin-left: 250px;
+  /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+table, th, td {
+  background-color: #390E15;
+  border: 1px solid wheat;
+  border-collapse: collapse;
+  margin-top: 7em;
+  margin-left: 8.5em;
+  text-align: center;
+  padding: 1em;
+}
+
+table {
+  margin-top: 8rem;
+  margin-left: 17rem;
+  width: 750px;
+}
+
+button {
+  color: greenyellow;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'poppins';
+}
+
+#logout {
+  margin: auto;
+}
+
+#promote {
+  color: red;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+#promote:hover {
+  color: brown;
+}
+/*# sourceMappingURL=adminGrantPriv.css.map */

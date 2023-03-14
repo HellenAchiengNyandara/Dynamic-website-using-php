@@ -1,0 +1,218 @@
+@import url("https://www.dafontfree.net/embed/cmFnZS1pdGFsaWMtcmVndWxhciZkYXRhLzEzL3IvNjUyNjYvUkFHRS5UVEY");
+@import url("http://fonts.cdnfonts.com/css/bankgothic-lt-bt");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'bankgothic lt bt', sans-serif;
+}
+
+.navbar {
+  text-align: center;
+  background: none;
+  padding: 3em;
+  margin: auto;
+  margin-left: 2.95em;
+}
+
+.navbar span {
+  font-size: 1.1em;
+}
+
+.navbar span a {
+  text-decoration: none;
+  -webkit-transition: color 0.7s;
+  transition: color 0.7s;
+}
+
+.navbar span a:hover {
+  color: #DA7420;
+}
+
+#logo {
+  padding: 1em;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'rage';
+  color: #DBDBDB;
+}
+
+#bakery {
+  text-align: center;
+  font-size: 1em;
+  font-family: 'bankgothic lt bt';
+  color: #DBDBDB;
+  margin-top: -1rem;
+  margin-left: -3rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #DBDBDB;
+  margin-right: 2em;
+}
+
+#welcomebg {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.bread {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.bread a {
+  font-family: 'bankgothic lt bt', sans-serif;
+  text-decoration: none;
+  font-size: 5rem;
+  color: #FDECCE;
+}
+
+.bread span a {
+  text-decoration: none;
+  -webkit-transition: color 0.7s;
+  transition: color 0.7s;
+}
+
+.bread span a:hover {
+  color: #DA7420;
+}
+
+.biscuit {
+  padding: 20rem;
+  margin-top: 18rem;
+  background-image: url("images/biscuits.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.biscuit a {
+  font-family: 'bankgothic lt bt', sans-serif;
+  text-decoration: none;
+  font-size: 5rem;
+  color: #FDECCE;
+}
+
+.biscuit span a {
+  text-decoration: none;
+  -webkit-transition: color 0.7s;
+  transition: color 0.7s;
+}
+
+.biscuit span a:hover {
+  color: #DA7420;
+}
+
+.cake {
+  padding: 20rem;
+  margin-top: 0rem;
+  background-image: url("images/cake.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.cake a {
+  font-family: 'bankgothic lt bt', sans-serif;
+  text-decoration: none;
+  font-size: 5rem;
+  color: #FDECCE;
+}
+
+.cake span a {
+  text-decoration: none;
+  -webkit-transition: color 0.7s;
+  transition: color 0.7s;
+}
+
+.cake span a:hover {
+  color: #DA7420;
+}
+
+.donut {
+  padding: 20rem;
+  margin-top: 0rem;
+  background-image: url("images/donut.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.donut a {
+  font-family: 'bankgothic lt bt', sans-serif;
+  text-decoration: none;
+  font-size: 5rem;
+  color: #FDECCE;
+}
+
+.donut span a {
+  text-decoration: none;
+  -webkit-transition: color 0.7s;
+  transition: color 0.7s;
+}
+
+.donut span a:hover {
+  color: #DA7420;
+}
+
+.burger {
+  padding: 24rem;
+  margin-top: 0rem;
+  background-image: url("images/burger.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.burger a {
+  font-family: 'bankgothic lt bt', sans-serif;
+  text-decoration: none;
+  font-size: 5rem;
+  color: #FDECCE;
+}
+
+.burger span a {
+  text-decoration: none;
+  -webkit-transition: color 0.7s;
+  transition: color 0.7s;
+}
+
+.burger span a:hover {
+  color: #DA7420;
+}
+
+.pizza {
+  padding: 24rem;
+  margin-top: 0rem;
+  background-image: url("images/pizza pic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.pizza a {
+  font-family: 'bankgothic lt bt', sans-serif;
+  text-decoration: none;
+  font-size: 5rem;
+  color: #FDECCE;
+}
+
+.pizza span a {
+  text-decoration: none;
+  -webkit-transition: color 0.7s;
+  transition: color 0.7s;
+}
+
+.pizza span a:hover {
+  color: #DA7420;
+}
+/*# sourceMappingURL=menu page.css.map */

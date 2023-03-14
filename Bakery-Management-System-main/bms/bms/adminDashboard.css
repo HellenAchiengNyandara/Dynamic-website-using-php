@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Poppins:wght@400;700&family=Zen+Kaku+Gothic+Antique&display=swap");
+body {
+  background-color: #000000;
+}
+
+main {
+  color: #000000;
+  font-family: 'rage';
+  margin-left: 19.4rem;
+  /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+.total-records {
+  background-color: #ffffff;
+  width: 18rem;
+  height: 6rem;
+  border-radius: 5px;
+  margin-bottom: 4em;
+  border: 2rem solid #422011;
+  border-radius: 30px;
+}
+
+.total-records img {
+  margin-left: 13em;
+  margin-top: -5.3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sidebar {
+  background-color: #422011;
+  height: 100%;
+  /* Full-height: remove this if you want "auto" height */
+  width: 19rem;
+  /* Set the width of the sidebar */
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 20px;
+  font-family: 'poppins';
+}
+
+.admin-id {
+  margin-top: 1.6rem;
+}
+
+#logout {
+  margin: auto;
+}
+
+#about-admin {
+  margin: auto;
+}
+
+.sidebar h3, .sidebar h4 {
+  color: #ffffff;
+  font-family: 'poppins';
+  font-size: .9em;
+  margin: -.1em;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.sidebar h4 {
+  margin-bottom: 3.5em;
+  color: #818181;
+}
+
+.sidebar .admin-img {
+  margin-left: 6.7em;
+}
+
+.sidebar-menu {
+  margin-left: 3.5rem;
+}
+
+.sidebar-menu li {
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.sidebar-menu a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 1em;
+  color: #ffffff;
+  display: block;
+}
+
+.left-side {
+  margin-top: 3.7em;
+  margin-left: 8em;
+}
+
+.left-side h3, .left-side h4 {
+  padding-left: 1em;
+  width: 150px;
+}
+
+.left-side h4 {
+  padding-top: 2em;
+  font-size: .9em;
+  font-weight: normal;
+  margin-bottom: -1.2em;
+}
+
+.right-side {
+  margin-left: 41em;
+  margin-top: -41.9em;
+}
+
+.right-side h3, .right-side h4 {
+  padding-left: 1em;
+  width: 150px;
+}
+
+.right-side h4 {
+  padding-top: 2em;
+  font-size: .9em;
+  font-weight: normal;
+  margin-bottom: -1.2em;
+}
+
+.total-records .inner-text {
+  margin-top: -4rem;
+  margin-left: -0.4rem;
+}
+
+.total-records h3 {
+  font-family: 'poppins';
+  margin-left: 0.7rem;
+  margin-top: 2rem;
+}
+
+.total-records h4 {
+  font-size: 1.6rem;
+}
+
+.sidebar-menu ul {
+  list-style: none;
+}
+
+.sidebar-menu ul li {
+  margin-left: -2em;
+}
+
+.sidebar-menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  -webkit-transition: all ease-out 300ms;
+  transition: all ease-out 300ms;
+}
+
+.sidebar-menu ul li.active a {
+  color: #14B8A6;
+}
+
+.sidebar-menu ul li:not(.active)::after {
+  opacity: 0.2;
+}
+
+.sidebar-menu ul li:not(.active):hover a {
+  color: rgba(20, 184, 166, 0.75);
+}
+
+.sidebar-menu ul li::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.2em;
+  background: black;
+  left: 0;
+  bottom: 0;
+}
+/*# sourceMappingURL=adminDashboard.css.map */
